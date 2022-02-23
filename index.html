@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<html lang="en">
+
+<head>
+<title>CSS Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: url('https://www.wallart.com/media/catalog/product/cache/4cc525b66ea86a423789cfd530c14651/w/0/w04748-small.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 3500px; /* only for demonstration, should be removed */
+  background-color: #fff5ee ;
+  padding: 50px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 60px;
+  width: 85%;
+  background-color: #bdb76b;
+  height: 3500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1 style="color:darkolivegreen; text-align:center; font-size: 70px">Mandai Wildlife Reserve</h1>
+
+
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a <a style="color:darkorange"; class="active" href="index.html">Home</a></li>
+      <br>
+      <li><a <a style="color:darkorange"; href="page2.html">Animals and Zones</a></li>
+      <br>
+      <li><a <a style="color:darkorange"; href="page3.html">Tickets</a></li>
+      <br>
+      <li><a <a style="color:darkorange"; href="page4.html">Events and Promotion</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    
+    <div style="margin-left:15%;padding:1px 16px;height:1000px">
+    <h2 style="color: seashell; font-size: 50px; text-align: center">Singapore Zoo</h2>
+    <h2 style="color: seashell; font-size: 22px; text-align: center">Journey into Wild Places</h2>
+    <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_864/w_80,x_15,y_15,g_south_west,l_klook_water/activities/b2vdzehcsk2t6n6mziv0/SingaporeZooTickets.jpg" alt="Singapore zoo poster" width="750" height="600">
+   
+  
+   <hr>
+
+   <h3 style="color:ivory; font-size: 25px; text-align: center;text-decoration:underline">Things to do at Singapore Zoo</h3>
+   <h4 style="color:firebrick; font-size: 20px; text-align: center"> Feed the Animals </h4>
+  
+    <style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content: center
+      }
+      img {
+        max-width: 20%
+      }
+      .image {
+        flex-basis: 50%
+      }
+      .text {
+        font-size: 60px;
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1f/d8/92/9b/rhino-feeding.jpg">
+        <img src="https://www.mandai.com/content/dam/mandai/singapore-zoo/things-to-do/animal-feeding-elephant-listing-900x600.jpg">
+        <img src="https://moovazthefinder.s3-ap-southeast-1.amazonaws.com/2021/08/Feeding-animals.jpg">   
+        <img src="https://moovazthefinder.s3-ap-southeast-1.amazonaws.com/2021/08/goat-feeding.jpg">
+      </div>
+      <div class="text">
+        <p>Feel the excitement as the animals eat out of your hand.</p>
+        <p>All proceeds will help to fund our wildlife conservation efforts in the region. The token feeding sessions are operated at limited capacity as part of the necessary Safe Management Measures.</p>
+        <p> Feeding cups or baskets are subject to availability, based on a first-come-fist-served basis. We seek your understanding that once full, we will be unable to accept more guests.</p>
+        <p>Please book the feeding session online and arrive 15 minutes before the feeding time</p>
+        <hr>
+        <p style="text-align: center"> Feed the Animals sessions timings </p>       
+        <p style="text-align:center"</p><a href="https://www.mandai.com//en/ticketing/add-ons/parks-selection.html">Book Now</a></p>
+        <p style="font-size:15px;font-family:sans-serif;text-align:left;text-decoration:underline"> Elephant Feeding</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Elephants of Asia </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;9.30am and 4.30pm </p>
+        &nbsp
+        <p style="font-size:15px;font-family:sans-serif;text-align:left;text-decoration:underline"> Giraffe Feeding</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Wild Africa </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;10.45am, 1.50pm and 3.45pm</p>
+         &nbsp
+        <p style="font-size:15px;font-family:sans-serif;text-align:left;text-decoration:underline"> Goat Feeding</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Rainforest Kidzworld </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;11.30am and 3.30pm</p>
+    </div>
+    </div>
+    
+    <h4 style="color:firebrick; font-size: 20px; text-align: center"> Private Tours </h4>
+     <style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 110%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="https://www.mandai.com/content/dam/mandai/singapore-zoo/things-to-do/private-buggy-tour-listing-900x600.jpg">
+        <img src="https://media.timeout.com/images/103862142/image.jpg">
+        <img src="https://ak-d.tripcdn.com/images/0352u120008f4s31dCE0D.jpg">
+      </div>
+      <div class="text">
+        <p> Get a "backstage pass"and let our guide drive around VIP-style in a buggy to some of our most popular exhibits. Then, take a behind-the-scenes look at how we care for our animals.</p>
+        <p>If you would like to try your hand at feeding the animals yourself, there are also feed the animals sessions.</p>
+        <hr>
+        <p style="text-align: center">Private Buggy Tour</p>       
+        <p style="text-align:center"</p><a href="https://www.mandai.com//en/ticketing/add-ons/date-selection.html?intcmp=1ccc||Private%20Buggy%20Tour|pri|Book%20Now|singapore-zoo:things-to-do:activities:tours">Book Now</a></p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128107;Up to 5 pax </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128204;Embark on a free and easy tour with your personal guide on your own private buggy.</p>
+        <p style="font-size:15px;font-family:courier;text-align:left"> Let us plan out your itinerary from the exhibits and shows you would like to visit as we share fun facts about our animals!</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">For enquiries, please email us at tours@mandai.com</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128181;Price</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">Public: $400/1.5hour</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">Members: $320/1.5hour</p>
+ 
+    </div>
+    </div>
+
+  &nbsp
+    
+  <h4 style="color:firebrick; font-size: 20px; text-align: center"> Keeper Talk </h4>
+     <style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 130%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="https://zula.sg/wp-content/uploads/2019/10/singapore-zoo-7.jpg">
+        <img src="https://onecms-res.cloudinary.com/image/upload/s--u3rBn5Tt--/c_crop%2Ch_843%2Cw_1500%2Cx_0%2Cy_83/c_fill%2Cg_auto%2Ch_468%2Cw_830/f_auto%2Cq_auto/v1/mediacorp/cna/image/2021-10/staff-with-guests_mod.jpg?itok=Y3RxHDFy">
+        <img src="https://blooloop.com/wp-content/uploads/2020/09/Giraffe-feeding-Singapore-Zoo-1024x681.jpg">
+      </div>
+      <div class="text">
+        <p>Hear interesting quirks of the animals from our keepers and get a chance to feed some of them yourselves.</p>
+        <p>Learn more about our wildlife from people who know best-the keepers. In this interactive session, hear interesting quirks of the ainimals from our keepers.</p>
+        <p>If you would like to try your hand at feeding the animals yourself, there are also feed the animals sessions.</p>
+        <hr>
+        <p style="text-align: center">Timings</p>       
+        <p style="font-size:15px;font-family:san-seriff;text-align:left">&#129409;Lion </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Wild Africa</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;11.30am and 1.25pm</p>
+      
+        <p style="font-size:15px;font-family:san-seriff;text-align:left">&#129427;Zebra </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Wild Africa</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;12.30pm and 4.45pm</p>
+
+          
+        <p style="font-size:15px;font-family:san-seriff;text-align:left">&#129421;Chimpanzee </p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Chimpanzee Exhibit</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;4.20pm</p>
+
+          
+        <p style="font-size:15px;font-family:san-seriff;text-align:left">&#129423;Rhino</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128205;Wild Africa</p>
+        <p style="font-size:15px;font-family:courier;text-align:left">&#128344;1.15pm and 5.00pm</p>
+    </div>
+    </div>
+
+         
+
+</body>
+</html>
